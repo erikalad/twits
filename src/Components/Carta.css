@@ -7,8 +7,12 @@
     padding-bottom: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.303);
     border-radius: 10px;
-    background-color:rgba(239, 239, 239, 0.193); 
+    background-color:rgba(238, 238, 238, 0.164); 
     width: 80%;
+}
+
+.contendor:hover{
+    background-color:rgba(219, 219, 219, 0.323); 
 }
 
 .contenedor-tituloSubtitulo{
