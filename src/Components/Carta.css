@@ -1,0 +1,53 @@
+.contendor{
+    display: flex;
+    flex-direction: column;
+    margin:2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.303);
+    border-radius: 10px;
+    background-color:rgba(224, 224, 224, 0.193); 
+    width: 50%;
+}
+
+.contenedor-tituloSubtitulo{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.foto-texto-perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.fotoperfil{
+    width: 80%;
+    border-radius: 100%;
+}
+
+.publicacion{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tags{
+    display: flex;
+    justify-content: start;
+    margin-top: 0.5rem;
+}
+
+.contenedor-publicacion{
+    width: 80%;
+}
+
+.contenedor-perfil{
+    width: 10%;
+}
+
+.user-twitter{
+    color:rgb(179, 179, 179);
+    font-weight: 100;
+    
+}
