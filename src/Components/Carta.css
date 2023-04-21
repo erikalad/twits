@@ -1,13 +1,14 @@
 .contendor{
     display: flex;
     flex-direction: column;
-    margin:2rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.303);
     border-radius: 10px;
     background-color:rgba(224, 224, 224, 0.193); 
-    width: 50%;
+    width: 90%;
 }
 
 .contenedor-tituloSubtitulo{
@@ -57,7 +58,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+ 
+}
+
+.border{
+    border: 1px solid rgba(136, 136, 136, 0.203);
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 .nav{
@@ -70,5 +78,5 @@
     left: 0;
     width: 100%;
     z-index: 999;
-  
+   
   }

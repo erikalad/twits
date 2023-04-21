@@ -12,8 +12,12 @@ import perfil6 from './../ropa.jpg'
 export default function Carta() {
   return (
     <Fragment>
-      <div className='contenedor-general'>
-        <div className='nav'></div>
+  <div className='contenedor-general'>
+    <div className='nav'></div>
+
+
+    <div className='contenedor-general border'>
+
     <div className='contendor'> {/*CONTENEDOR GENERAL */}
       <div className='foto-texto-perfil'> {/*CONTENEDOR foto y texto vertical */}
         <div className='contenedor-perfil'>  {/*CONTENEDOR FOTO PERFIL */}
@@ -182,6 +186,7 @@ export default function Carta() {
       
     </div>
 
+    </div>
     </div>
     </Fragment>
   )
