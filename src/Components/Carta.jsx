@@ -81,6 +81,7 @@ export default function Carta() {
 {/*             <div><img src={publicacion} className='publicacion'/></div>{/* imagen */}
              <div className='tags'> {/*CONTENEDOR tags */}
              <Tag color='#008300'>POSITIVO</Tag>
+             <Tag color='blue'>AMBIENTE</Tag>
                 <Tag color='blue'>SISMO</Tag>
                 <Tag color='blue'>MÉXICO</Tag>
             </div>
@@ -130,6 +131,7 @@ export default function Carta() {
 {/*             <div><img src={publicacion} className='publicacion'/></div>{/* imagen */}
              <div className='tags'> {/*CONTENEDOR tags */}
                 <Tag color='grey'>NEUTRO</Tag>
+                <Tag color='blue'>AMBIENTE</Tag>
                 <Tag color='blue'>SISMO</Tag>
                 <Tag color='blue'>ALERTA</Tag>
             </div>
@@ -152,6 +154,7 @@ export default function Carta() {
         
              <div className='tags'> {/*CONTENEDOR tags */}
              <Tag color='#008300'>POSITIVO</Tag>
+                <Tag color='blue'>SALUD</Tag>
                 <Tag color='blue'>PRESIDENTE</Tag>
                 <Tag color='blue'>HOSPITALES</Tag>
                 <Tag color='blue'>AVION PRESIDENCIAL</Tag>
@@ -177,6 +180,7 @@ export default function Carta() {
         
              <div className='tags'> {/*CONTENEDOR tags */}
              <Tag color='#ff2323'>NEGATIVO</Tag>
+                 <Tag color='blue'>SEGURIDAD</Tag>
                 <Tag color='blue'>AGRESIÓN</Tag>
                 <Tag color='blue'>POLICÍA</Tag>
                 
