@@ -13,8 +13,15 @@ import perfil8 from './../secretario.jpg'
 import perfil9 from './../AGUA.jpeg'
 import perfil10 from './../PERFIL3.jpg'
 import perfil11 from './../colombia.jpg'
-
-
+import perfil12 from './../elnorte.jpg'
+import auto from './../auto.png'
+import perfil13 from './../perfil4.jpg'
+import banco from './../bancos.jfif'
+import perfil14 from './../perfil5.jpg'
+import autos from './../autos.avif'
+import perfil15 from './../criba.png'
+import perfil16 from './../perfilk.jpg'
+import emer from './../911.jfif'
 
 export default function Carta() {
   return (
@@ -41,6 +48,132 @@ export default function Carta() {
                 <Tag color='#008300'>POSITIVO</Tag>
                 <Tag color='blue'>CULTURA</Tag>
                 <Tag color='blue'>ALEGRÍA</Tag>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+        <div className='contendor'> {/*CONTENEDOR GENERAL */}
+      <div className='foto-texto-perfil'> {/*CONTENEDOR foto y texto vertical */}
+        <div className='contenedor-perfil'>  {/*CONTENEDOR FOTO PERFIL */}
+            <img src={perfil12} className='fotoperfil'/>
+        </div>
+        <div className='contenedor-publicacion'>  {/*CONTENEDOR TEXTO */}
+            <div className='contenedor-tituloSubtitulo'>
+            <div className='titulo'>EL NORTE</div>{/* titulo */}
+            <div className='user-twitter'>@elnorte</div>
+            </div>
+            <div>¿No hay cultura de darles servicio a los autos en México?
+
+Del total de #vehículos que fueron comprados y tienen un año, sólo 58% regresa a las #agencias para darles el servicio correspondiente.</div>{/* texto */}
+            <div><img src={auto} className='publicacion'/></div>{/* imagen */}
+            <div className='tags'> {/*CONTENEDOR tags */}
+                 <Tag color='grey'>NEUTRO</Tag>
+                <Tag color='blue'>CULTURA</Tag>
+                <Tag color='blue'>AUTOMOTOR</Tag>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div className='contendor'> {/*CONTENEDOR GENERAL */}
+      <div className='foto-texto-perfil'> {/*CONTENEDOR foto y texto vertical */}
+        <div className='contenedor-perfil'>  {/*CONTENEDOR FOTO PERFIL */}
+            <img src={perfil13} className='fotoperfil'/>
+        </div>
+        <div className='contenedor-publicacion'>  {/*CONTENEDOR TEXTO */}
+            <div className='contenedor-tituloSubtitulo'>
+            <div className='titulo'>Javier Morodo</div>{/* titulo */}
+            <div className='user-twitter'>@JavierMtzMorodo</div>
+            </div>
+            <div>Este hilo es un gran ejemplo del mayor problema que tiene México ante la cultura y educación financiera: LOS BANCOS.
+
+Es increíble que estando la tasa de CETES arriba del 11%, haya más de $1 BILLÓN de pesos al 0% de depositantes solamente en BBVA. 
+
+¡Entre los bancos más grandes…</div>{/* texto */}
+            <div><img src={banco} className='publicacion'/></div>{/* imagen */}
+            <div className='tags'> {/*CONTENEDOR tags */}
+            <Tag color='#ff2323'>NEGATIVO</Tag>
+                <Tag color='blue'>CULTURA</Tag>
+                <Tag color='blue'>MERCADO</Tag>
+                <Tag color='blue'>BANCOS</Tag>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+    <div className='contendor'> {/*CONTENEDOR GENERAL */}
+      <div className='foto-texto-perfil'> {/*CONTENEDOR foto y texto vertical */}
+        <div className='contenedor-perfil'>  {/*CONTENEDOR FOTO PERFIL */}
+            <img src={perfil14} className='fotoperfil'/>
+        </div>
+        <div className='contenedor-publicacion'>  {/*CONTENEDOR TEXTO */}
+            <div className='contenedor-tituloSubtitulo'>
+            <div className='titulo'>Israel Hurtado</div>{/* titulo */}
+            <div className='user-twitter'>@israelhurtadoa</div>
+            </div>
+            <div>Automóviles eléctricos pisan el acelerador en México, pero falta infraestructura-
+            “Los expertos advierten que aún hay pendientes por atender en electromovilidad para estimular el mercado y que las armadoras y clientes tengan confianza”
+            @MexicoHidrogeno
+            </div>{/* texto */}
+            <div><img src={autos} className='publicacion'/></div>{/* imagen */}
+            <div className='tags'> {/*CONTENEDOR tags */}
+                <Tag color='grey'>NEUTRO</Tag>
+                <Tag color='blue'>MERCADO</Tag>
+                <Tag color='blue'>AUTOMOTOR</Tag>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+    
+    <div className='contendor'> {/*CONTENEDOR GENERAL */}
+      <div className='foto-texto-perfil'> {/*CONTENEDOR foto y texto vertical */}
+        <div className='contenedor-perfil'>  {/*CONTENEDOR FOTO PERFIL */}
+            <img src={perfil16} className='fotoperfil'/>
+        </div>
+        <div className='contenedor-publicacion'>  {/*CONTENEDOR TEXTO */}
+            <div className='contenedor-tituloSubtitulo'>
+            <div className='titulo'>Rosa Icela Rodríguez Velázquez</div>{/* titulo */}
+            <div className='user-twitter'>@rosaicela_</div>
+            </div>
+            <div>El 911 está disponible las 24 horas del día. En caso de una emergencia de salud o seguridad, comuníquense.
+            </div>{/* texto */}
+            <div><img src={emer} className='publicacion'/></div>{/* imagen */}
+            <div className='tags'> {/*CONTENEDOR tags */}
+                <Tag color='grey'>NEUTRO</Tag>
+                <Tag color='blue'>SEGURIDAD</Tag>
+                <Tag color='blue'>EMERGENCIAS</Tag>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+    <div className='contendor'> {/*CONTENEDOR GENERAL */}
+      <div className='foto-texto-perfil'> {/*CONTENEDOR foto y texto vertical */}
+        <div className='contenedor-perfil'>  {/*CONTENEDOR FOTO PERFIL */}
+            <img src={perfil15} className='fotoperfil'/>
+        </div>
+        <div className='contenedor-publicacion'>  {/*CONTENEDOR TEXTO */}
+            <div className='contenedor-tituloSubtitulo'>
+            <div className='titulo'>Criba Historia y Cultura</div>{/* titulo */}
+            <div className='user-twitter'>@cribahistoria</div>
+            </div>
+            <div>¿Ya conoces la Colección Libros del Alicate? Puedes encontrar investigaciones del movimiento minera, el anarquismo y la salud en México. 
+            </div>{/* texto */}
+            <div className='tags'> {/*CONTENEDOR tags */}
+                <Tag color='grey'>NEUTRO</Tag>
+                <Tag color='blue'>SALUD</Tag>
+                <Tag color='blue'>LITERATURA</Tag>
             </div>
         </div>
       </div>
